@@ -1,0 +1,17 @@
+h1{
+    font-size: 30px;
+    color: blue;
+}
+.x{
+    width: 300px;
+    color: red;
+}
+button{
+    color: yellow;
+    background-color: pink;
+    width: 50px;
+    height: 30px;
+}
+p{
+    color: red;
+}

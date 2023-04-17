@@ -1,0 +1,41 @@
+div{
+    background: rgb(165, 154, 154);
+    width: 2000px;
+}
+.o{
+    height: 75px;
+}
+h1{
+    display: inline;
+}
+.x{
+    font-family: Georgia;
+    font-size: larger;
+}
+.y{
+    font-size: larger;
+    font-family: Georgia;
+    background: red;
+    color: white;
+    border-radius: 10%;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+.z{
+    position: absolute;
+    margin-top: 5px;
+    height: 50px;
+    padding-left: 750px;
+}
+.m{
+    margin-left: 200px;
+    margin-top: 15px;
+}
+#b{
+    background: bisque;
+    font-family: sans-serif;
+}

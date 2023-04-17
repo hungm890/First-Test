@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .out{
+        width: 1000px;
+        height: 1000px;
+        border: solid;
+    }
+    .box , .box2{
+        background: bisque;
+        width: 200px;
+        height: 200px;
+    }
+    .box:hover{
+        border-radius: 100px;
+        background: red;
+        border: 1px solid;
+        margin-left: 500px;
+        transition: 6s;
+        transform: rotate(180deg);
+    }
+    .box2:hover{
+        display: none;
+    }
+</style>
+<body>
+    <!-- 
+      biến mất
+      + display none
+      + width 0
+      + opacity 0
+     -->
+    <div class="out">
+     <div class="box"></div>
+    </div>
+     <div class="box2"></div>
+</body>
+</html>

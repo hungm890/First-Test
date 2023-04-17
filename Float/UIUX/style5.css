@@ -1,0 +1,139 @@
+.header , .menu , .content , footer {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.header{
+    width: 100%;
+    border: 1px ;
+    height: 150px;
+}
+.logo {
+    border: 1px solid;
+    height: 150px;
+    width: 30%;
+    float: left;
+}
+.banner {
+    width: calc(100% - 30% - 14px);
+    height: 150px;
+    border: 1px solid;
+    float: left;
+    margin-left: 10px;
+}
+.menu {
+    width: 100%;
+    height: 40px;
+    border: 1px solid;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.content {
+    height: 600px;
+    border: ;
+}
+.footer {
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+}
+.Left {
+    border: 1px ;
+    width: 15%;
+    height: 400px;
+    float: left;
+    margin-right: 10px;
+}
+.main {
+    border: 1px ;
+    width: calc(100% - 25% - 15% - 26px);
+    height: 500px;
+    float: left;
+    margin-right: 10px;
+}
+.right {
+    border: 1px ;
+    width: 25%;
+    height: 550px;
+    float: left;
+}
+a{
+    text-decoration: none;
+    padding: 30px ;
+}
+input{
+    border-radius: 50px;
+    float: right;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    width: 250px;
+}  
+.tren{
+    height: 50%;
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+.duoi{
+    height: 50%;
+    border: 1px solid;
+}
+.tren1 , .duoi1{
+    border: 1px ;
+}
+.tren1{
+    height: 30%;
+}
+.duoi1{
+    height: 70%;
+}
+.main3 , .main4{
+    border: 1px solid;
+    width: calc(100% / 2 - 20px);
+    height: 100%;
+    float: left;
+    margin-right: 10px;
+}
+.tren2 , .duoi2{
+    margin-top: 10px;
+    border: 1px ;
+    height: 50%;
+    width: 100%;
+}
+.main1{
+    border: 1px solid;
+    height: 100%;
+    width: calc(100% / 3 - 20px); 
+    float: left;
+    margin-right: 10px;
+}
+.main2{
+    border: 1px solid;
+    height: 100%;
+    width: calc(100% / 3 - 20px); 
+    float: left;
+    margin-right: 10px;
+}
+.right1{
+    border: 1px solid;
+    height: calc(100% / 3 - 20px);
+    width:  100%;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 1200px){
+    .Left{
+        display: none;
+    }
+    .main{
+        width: calc(100% - 35% -14px);
+    }
+    .right{
+        width: 35%;
+    }
+
+}
+@media only screen and (max-width: 1000px) {
+    .right{
+        display: none;
+    }
+}
+@media only screen and (max-width: 800px) {
+      

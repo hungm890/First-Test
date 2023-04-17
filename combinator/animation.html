@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        width: 100px;
+        height: 100px;
+        background: blue;
+        animation: example 5s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes example{
+        0%{}
+        25% {transform: translateX();}
+        75% {margin-top: calc(100% - 100px); margin-left: calc(100% - 100px);}
+
+    }
+    .box:hover{
+        border-radius: 100%;
+        transform: rotate(180deg);
+        margin-left: 150px;
+        transition: 5s;
+    }
+</style>
+<body>
+    <div class="box"></div>
+</body>
+</html>

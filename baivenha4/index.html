@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ div{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+
+ }   
+ img{
+    width: 300px;
+    height: calc(100% - 120px);
+    border-radius: 10%;
+ }
+ p{
+    line-height: 1%;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+ }
+input{
+    border: 1px solid white;
+    height: 30px;
+    width: 100px;
+    position: relative;
+    top: 30%;
+    left: 30%;
+    background-color: transparent;
+    color: white;
+    display: none;
+}
+ img:hover{
+    scale: 80%;
+    transition: 1s
+ }
+ div:hover{
+    transition: 1s;
+    border: 1px solid black;
+ }
+ input:hover{
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+    transition: 1s;
+ }
+</style>
+<body>
+    <div>
+        <input type="button" value="Click">
+        <img src="https://i1.wp.com/lucloi.vn/wp-content/uploads/2021/12/267589852_2011487552344501_2579331894419622441_n.jpg?fit=740%2C334&ssl=1" alt="">
+        <p>Cup của Arsenal</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+h2{
+    display: flexbox;
+    color: rgb(21, 24, 226);
+    background-color: blanchedalmond;
+}
+div{
+    font-size: 30px;
+    font-family: Tahoma;
+    color: chocolate;
+    flex-basis: content;
+    background-color: chartreuse;
+}
+h3{
+    font-family: cursive;
+    color: brown;
+    background-color: blueviolet;
+
+}
+h1{
+    color: red;
+    font-family: cursive;
+    background-color: black;
+}
+p{
+    font-size: 20px;
+    color: red;
+    font-style: italic;
+    font-family: papyrus;
+}
+.s{
+    font-size: 50px;
+    color: aqua;
+    font-family: 'Gill Sans';
+}
+#f{
+    color: red;
+    font-family: fantasy;
+}

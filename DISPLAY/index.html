@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+      display:thuộc tính quy định cách hiển thị của 1 thẻ
+      + inline: quy định chiều ngang của thẻ vừa bằng nội dung( span, a,label), không quy định được w & h
+      + block: quy định chiều ngang của thẻ là cả màn hình( div, h, p), có thể quy định được w & h
+      +inline-block: vừa có thể hiển thị trên cùng dòng như Inline, 
+                     lại có thể căn chỉnh được các giá trị như đã nêu ở trên giống như Block(img)
+      + mỗi thẻ có sẵn display mặc định và có thể thay đổi đc
+      ._tên class
+      thẻ._tên class
+      *: tất cả thẻ
+    -->
+    <h1 style="display: inline; width: 100px; height: 100px; background: blue;" >Hello</h1>
+    <hr>
+    <span style="display: block; width: 100px; height: 100px; background: yellow;">Xin chào</span>
+    <!--span và a có display là inline -->
+    <!--h1,h2,p có display là block-->
+    <!-- div, a, p đặt cạnh nhau, ngang 300, dọc 200. Màu lần lượt: xanh, đỏ, vàng-->
+    <!-- 2 thẻ a, mỗi thẻ a tự xuống dòng-->
+    <!--1-->
+    <hr>
+    <a href="" style="display: block;">Quen Linh</a>
+    <a href="" style="display: block;">Yêu Linh</a>
+    <!--2-->
+    <div style="width: 300px; height: 200px; background: blue; display: inline-block;">#GGMU</div>
+     <a href="" style="width: 300px; height: 200px; background: red; display: inline-block;">#xinloisancho</a>
+     <p style="width: 300px; height: 200px; background: yellow; display: inline-block;">Sà Bì Chưởng</p>
+</body>
+</html>
